@@ -1,0 +1,236 @@
+body{
+    background: linear-gradient(90deg, #0d234e, #1a1a1ad5);
+}
+ .linkspages {
+        background: linear-gradient(90deg, #0d234e, #1a1a1ad5);
+        position: fixed; 
+        top: 5%;
+        right: 0;
+        padding: 10px 15px;
+        border-radius: 8px 0 0 8px; 
+        display: flex; /*-- -- --*/
+        gap: 15px; /*space*/
+        box-shadow: -2px 2px 10px rgb(0, 0, 0);
+        z-index: 1000; /*visible*/
+    }
+
+    .linkspages a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .linkspages a:hover {
+        background-color: #222222ad; 
+        transform: scale(1.1); 
+    }
+
+    .top-bar {
+    position: absolute; /*stay above */
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    z-index: 10;
+}
+.logo {
+    position: fixed;
+    font-size: 28px;
+    font-weight: bold;
+    color: #0d234e;
+     
+}
+.sales-hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('careyes.jpg');
+    background-size: 125%;
+    background-position: center 40%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+}
+
+.sales-hero h1 {
+    color: white;
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-family: 'Georgia', serif;
+}
+
+.sales-hero p {
+    color: #3802ff;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+/* Filter*/
+.filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 20px;
+    background: #000000;
+    flex-wrap: wrap;
+}
+
+.filter-brand {
+    background: #1a1a1a;
+    color: white;
+    border: 1px solid #3802ff;
+    padding: 12px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;/*👆*/
+    outline: none;
+}
+
+.filter-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter-price input {
+    background: #1a1a1a;
+    color: white;
+    border: 1px solid #3802ff;
+    padding: 12px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 180px;
+    outline: none;
+}
+
+.filter-price span {
+    color: #3802ff;
+    font-size: 18px;
+}
+
+.filter-btn {
+    background: #3802ff;
+    color: black;
+    border: none;
+    padding: 12px 30px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.filter-btn:hover {
+    background: rgba(255, 255, 255, 0.726);
+}
+/* CARS GRID */
+.cars-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 40px;
+    background: #0a0a0a;
+}
+
+/* CARD */
+.car-card {
+    background: #111111;
+    border-radius: 12px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+}
+
+.car-card:hover {
+    transform: translateY(-8px);
+} /*Hover effect*/
+
+.car-slider {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.car-slider .slide {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: none;
+}
+
+.car-slider .slide.active {
+    display: block;
+}
+
+.car-slider .prev,
+.car-slider .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.6);
+    color: #3802ff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.car-slider .prev { left: 8px; }
+.car-slider .next { right: 8px; }
+
+/* CAR INFO */
+.car-info {
+    padding: 20px;
+}
+
+.car-info h3 {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.car-info .brand {
+    color: #3802ff;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.car-info .year{
+    color: #888888;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.car-info .price {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.buy-btn {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    padding: 12px;
+    background: #3802ff;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+}
+
+.buy-btn:hover {
+    background: white;
+}

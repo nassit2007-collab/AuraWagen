@@ -1,0 +1,121 @@
+body{
+    background: linear-gradient(90deg, #0d234e, #1a1a1ad5);
+}
+    .linkspages {
+        background: linear-gradient(90deg, #0d234e, #1a1a1ad5);
+        position: fixed; 
+        top: 5%;
+        right: 0;
+        padding: 10px 15px;
+        border-radius: 8px 0 0 8px; 
+        display: flex; /*-- -- --*/
+        gap: 15px; /*space*/
+        box-shadow: -2px 2px 10px rgb(0, 0, 0);
+        z-index: 1000; /*visible*/
+    }
+
+    .linkspages a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .linkspages a:hover {
+        background-color: #222222ad; 
+        transform: scale(1.1); 
+    }
+
+.hero-section {
+    width: 100%;
+    height: 500px; 
+}
+
+.top-bar {
+    position: absolute; /*stay above */
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*header cover*/
+    filter: brightness(0.7); /* darken image for text/logo visibility */
+}
+
+.logo {
+    position: fixed;
+    font-size: 28px;
+    font-weight: bold;
+    color: #0d234e;
+     
+}
+/* WHY CHOOSE US */
+.chose{
+    color: #4a4a4a;
+    font-size: 42px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-family: 'Georgia', serif;        
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.2); 
+    
+}
+.why-choose{
+padding:80px 20px;
+text-align:center;
+background: linear-gradient(90deg, #0d234e, #1a1a1ad5);
+}
+
+.company-logo{
+width: 500px;
+margin:20px 0;
+border-radius: 20px;                      
+box-shadow: 0px 4px 15px rgba(0,0,0,0.8); 
+}
+
+.features{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;/*line br*/
+}
+
+.feature{
+background:rgb(0, 0, 0);
+padding:20px;
+border-radius:10px;
+width:250px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+color: #ffffff;
+}
+
+
+/* ABOUT US */
+.About{
+    color: #4a4a4a;
+    font-size: 42px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-family: 'Georgia', serif;        
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.2); 
+ 
+}
+.about-us{
+padding:80px 20px;
+text-align:center;
+background:#111;
+color:white;
+}
+
+.about-us p{
+max-width:600px;
+margin:auto;
+line-height:1.6;
+font-size: 20px;
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sale page</title>
+    <link rel="stylesheet" href="stylesale.css">
+</head>
+<body>
+    <header class="hero-section">
+        <div class="top-bar">
+            <div class="logo">Auravagen</div>
+            <div class="linkspages">
+                <a href="index.html">Home</a>
+                <a href="sales.html">Sales</a>
+                <a href="rent.html">Rent</a>
+                <a href="Contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+    <section class="sales-hero">
+        <h1>OUR LUXURY COLLECTION</h1>
+        <p>Every vehicle tells a story. Find yours.</p>
+    </section>
+<section class="filters">
+    
+    <select class="filter-brand">
+        <option value="all">All Brands</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="bmw">BMW</option>
+        <option value="porsche">Porsche</option>
+        <option value="rolls-royce">Rolls-Royce</option>
+        <option value="lamborghini">Lamborghini</option>
+    </select>
+
+    <div class="filter-price">
+        <input type="number" id="min-price" placeholder="Min Price (MAD)">
+        <span>—</span>
+        <input type="number" id="max-price" placeholder="Max Price (MAD)">
+    </div>
+
+    <button class="filter-btn">SEARCH</button>
+
+</section>
+
+<!-- CARS GRID -->
+<section class="cars-grid">
+
+    <!-- MERCEDES -->
+    <div class="car-card" data-brand="mercedes" data-price="1026200">
+        <div class="car-slider">
+            <img src="mercedice (1).jfif" class="slide active">
+            <img src="mercedice (2).jfif" class="slide">
+            <button class="prev">&#8592;</button>
+            <button class="next">&#8594;</button>
+        </div>
+        <div class="car-info">
+            <h3>Mercedes S-Class</h3>
+            <p class="brand">Mercedes Benz AMG GT</p>
+            <p class="year">2022</p>
+            <p class="price">1,026,200 MAD</p>
+            <a href="#contact" class="buy-btn">Buy Now</a>
+        </div>
+    </div>
+
+    <div class="car-card" data-brand="mercedes" data-price="2500000">
+        <div class="car-slider">
+            <img src="2mercedice1 (1).jfif" class="slide active">
+            <img src="2mercedice1 (2).jfif" class="slide">
+            <button class="prev">&#8592;</button>
+            <button class="next">&#8594;</button>
+        </div>
+        <div class="car-info">
+            <h3>Mercedes G63 AMG</h3>
+            <p class="brand">Mercedes-Benz</p>
+            <p class="year">2024</p>
+            <p class="price">2,500,000 MAD</p>
+            <a href="#contact" class="buy-btn">Buy Now</a>
+        </div>
+    </div>
+
+    <div class="car-card" data-brand="mercedes" data-price="3800000">
+        <div class="car-slider">
+            <img src="3mercedice (1).jfif" class="slide active">
+            <img src="3mercedice (2).jfif" class="slide">
+            <button class="prev">&#8592;</button>
+            <button class="next">&#8594;</button>
+        </div>
+        <div class="car-info">
+            <h3>Mercedes Maybach S680</h3>
+            <p class="brand">Mercedes-Benz</p>
+            <p class="year">2024</p>
+            <p class="price">3,800,000 MAD</p>
+            <a href="#contact" class="buy-btn">Buy Now</a>
+        </div>
+    </div>
+
+    <!-- BMW -->
+    <div class="car-card" data-brand="bmw" data-price="950000">
+        <div class="car-slider">
+            <img src="BMW (1).jfif" class="slide active">
+            <img src="BMW (2).jfif" class="slide">
+            <button class="prev">&#8592;</button>
+            <button class="next">&#8594;</button>
+        </div>
+        <div class="car-info">
+            <h3>BMW M5</h3>
+            <p class="brand">BMW</p>
+            <p class="year">2023</p>
+            <p class="price">950,000 MAD</p>
+            <a href="#contact" class="buy-btn">Buy Now</a>
+        </div>
+    </div>
+
+    <div class="car-card" data-brand="bmw" data-price="1400000">
+        <div class="car-slider">
+            <img src="2BMW (1).jfif" class="slide active">
+            <img src="2BMW (2).jfif" class="slide">
+            <button class="prev">&#8592;</button>
+            <button class="next">&#8594;</button>
+        </div>
+        <div class="car-info">
+            <h3>BMW M8 Competition</h3>
+            <p class="brand">BMW</p>
+            <p class="year">2023</p>
+            <p class="price">1,400,000 MAD</p>
+            <a href="#contact" class="buy-btn">Buy Now</a>
+        </div>
+    </div>
+
+    <!-- PORSCHE -->
+    <div class="car-card" data-brand="porsche" data-price="1800000">
+        <div class="car-slider">
+            <img src="porche (2).jfif" class="slide active">
+            <img src="porche (1).jfif" class="slide">
+            <button class="prev">&#8592;</button>
+            <button class="next">&#8594;</button>
+        </div>
+        <div class="car-info">
+            <h3>Porsche 911</h3>
+            <p class="brand">Porsche</p>
+            <p class="year">2022</p>
+            <p class="price">1,800,000 MAD</p>
+            <a href="#contact" class="buy-btn">Buy Now</a>
+        </div>
+    </div>
+
+    <div class="car-card" data-brand="porsche" data-price="2200000">
+        <div class="car-slider">
+            <img src="2porche (2).jfif" class="slide active">
+            <img src="2porche (1).jfif" class="slide">
+            <button class="prev">&#8592;</button>
+            <button class="next">&#8594;</button>
+        </div>
+        <div class="car-info">
+            <h3>Porsche Cayenne Turbo</h3>
+            <p class="brand">Porsche</p>
+            <p class="year">2023</p>
+            <p class="price">2,200,000 MAD</p>
+            <a href="#contact" class="buy-btn">Buy Now</a>
+        </div>
+    </div>
+
+    <!-- ROLLS-ROYCE -->
+    <div class="car-card" data-brand="rolls-royce" data-price="5500000">
+        <div class="car-slider">
+            <img src="Rolls (1).jfif" class="slide active">
+            <img src="Rolls (2).jfif" class="slide">
+            <button class="prev">&#8592;</button>
+            <button class="next">&#8594;</button>
+        </div>
+        <div class="car-info">
+            <h3>Rolls-Royce Ghost</h3>
+            <p class="brand">Rolls-Royce</p>
+            <p class="year">2023</p>
+            <p class="price">5,500,000 MAD</p>
+            <a href="#contact" class="buy-btn">Buy Now</a>
+        </div>
+    </div>
+
+    <div class="car-card" data-brand="rolls-royce" data-price="7200000">
+        <div class="car-slider">
+            <img src="2rolls (2).jfif" class="slide active">
+            <img src="2rolls (1).jfif" class="slide">
+            <button class="prev">&#8592;</button>
+            <button class="next">&#8594;</button>
+        </div>
+        <div class="car-info">
+            <h3>Rolls-Royce Cullinan</h3>
+            <p class="brand">Rolls-Royce</p>
+            <p class="year">2024</p>
+            <p class="price">7,200,000 MAD</p>
+            <a href="#contact" class="buy-btn">Buy Now</a>
+        </div>
+    </div>
+
+    <!-- LAMBORGHINI -->
+    <div class="car-card" data-brand="lamborghini" data-price="4500000">
+        <div class="car-slider">
+            <img src="lam (1).jfif" class="slide active">
+            <img src="lam (2).jfif" class="slide">
+            <button class="prev">&#8592;</button>
+            <button class="next">&#8594;</button>
+        </div>
+        <div class="car-info">
+            <h3>Lamborghini Urus</h3>
+            <p class="brand">Lamborghini</p>
+            <p class="year">2023</p>
+            <p class="price">4,500,000 MAD</p>
+            <a href="#contact" class="buy-btn">Buy Now</a>
+        </div>
+    </div>
+
+    <div class="car-card" data-brand="lamborghini" data-price="6800000">
+        <div class="car-slider">
+            <img src="2lam (1).jfif" class="slide active">
+            <img src="2lam (2).jfif" class="slide">
+            <button class="prev">&#8592;</button>
+            <button class="next">&#8594;</button>
+        </div>
+        <div class="car-info">
+            <h3>Lamborghini Huracan</h3>
+            <p class="brand">Lamborghini</p>
+            <p class="year">2023</p>
+            <p class="price">6,800,000 MAD</p>
+            <a href="#contact" class="buy-btn">Buy Now</a>
+        </div>
+    </div>
+
+</section>
+<script src="script.js"></script>
+</body>
+</html>
