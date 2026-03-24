@@ -62,8 +62,7 @@ body{
     font-weight: 700;
     font-style: italic;
     letter-spacing: 3px;
-    font-family: 'Georgia', serif;        
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.2); 
+    font-family: 'Georgia', serif;         
     
 }
 .why-choose{
@@ -104,8 +103,7 @@ font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-style: italic;
     letter-spacing: 3px;
-    font-family: 'Montserrat', sans-serif;       
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.2); 
+    font-family: 'Montserrat', sans-serif; 
  
 }
 .about-us{
