@@ -41,12 +41,13 @@ body{
     color: #0d234e;
     cursor: pointer;        
     text-decoration: none;
+    
      
 }
-.sales-hero {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('careyes.jpg');
+.rent-hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('rentback1.jpg');
     background-size: 125%;
-    background-position: center 40%;
+    background-position: center 30%;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -55,20 +56,12 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.sales-hero h1 {
+.rent-hero h1 {
     color: white;
     font-size: 52px;
     font-weight: 700;
     letter-spacing: 4px;
     font-family: 'Georgia', serif;
-}
-
-.sales-hero p {
-    color: #3802ff;
-    font-size: 18px;
-    font-style: italic;
-    letter-spacing: 2px;
-    margin-top: 15px;
 }
 /* Filter*/
 .filters {
@@ -90,28 +83,6 @@ body{
     border-radius: 5px;
     cursor: pointer;/*👆*/
     outline: none;
-}
-
-.filter-price {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.filter-price input {
-    background: #1a1a1a;
-    color: white;
-    border: 1px solid #3802ff;
-    padding: 12px 15px;
-    font-size: 15px;
-    border-radius: 5px;
-    width: 180px;
-    outline: none;
-}
-
-.filter-price span {
-    color: #3802ff;
-    font-size: 18px;
 }
 
 .filter-btn {
@@ -207,34 +178,53 @@ body{
     letter-spacing: 2px;
 }
 
-.car-info .year{
-    color: #888888;
-    font-size: 13px;
-    margin-top: 5px;
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(160, 180, 220, 0.2);
+    border-bottom: 1px solid rgba(160, 180, 220, 0.2);
+    padding: 15px 0;
+    margin-bottom: 15px;
 }
 
-.car-info .price {
+.price-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.period {
+    font-family: 'Montserrat', sans-serif;
+    color: #a0b4d0;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.amount {
+    font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 13px;
     font-weight: 700;
-    margin-top: 15px;
 }
 
-.buy-btn {
+.rent-btn {
     display: block;
     text-align: center;
-    margin-top: 15px;
     padding: 12px;
-    background: #3802ff;
+    background: #a0b4d0;
     color: black;
     font-weight: 700;
     text-decoration: none;
     border-radius: 5px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
     transition: background 0.3s ease;
 }
 
-.buy-btn:hover {
+.rent-btn:hover {
     background: white;
 }
+
