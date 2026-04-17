@@ -1,4 +1,4 @@
-// ========== SLIDER ==========
+// SLIDER 
 document.querySelectorAll('.car-card').forEach(card => {
     const slides = card.querySelectorAll('.slide');
     const prev = card.querySelector('.prev');
@@ -18,7 +18,7 @@ document.querySelectorAll('.car-card').forEach(card => {
     });
 });
 
-// ========== FILTER ==========
+// FILTER 
 document.querySelector('.filter-btn').addEventListener('click', () => {
     const brand = document.querySelector('.filter-brand').value;
     const minPrice = parseInt(document.getElementById('min-price').value) || 0;

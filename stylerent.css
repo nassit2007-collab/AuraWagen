@@ -45,7 +45,7 @@ body{
      
 }
 .rent-hero {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('rentback1.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/rentback1.jpg');
     background-size: 125%;
     background-position: center 30%;
     height: 500px;
